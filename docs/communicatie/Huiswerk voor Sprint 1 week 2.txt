@@ -1,0 +1,52 @@
+--- expert review K5, K6, K7, G4 (code opmaak, comments, commits), G6
+Samenwerkingscontract: heldere afspraken met team genoot
+	wie doet wat,
+	review, van het product? of terug blik?
+	afspraken mogelijk extra tijd samenwerken, bijvoorbeeld in vrije tijd via teams of op school ( dagen en tijden noteren ) 
+
+documentatie: ook ontwerp process
+commits: mike ziet liefst 2 per dag
+ontwerpen, realiseren, testen -> aandacht voor alledrie!
+
+--- sprint 1 week 2 donderdag product review 
+
+think, make, check
+
+* interview 2 personen (verwachtingen, wat nodig is)
+* mindmap behoeftes + features
+* schets
+* test met schets met min 1 gebruiker
+
+k2, k3, k4 gebruikers interactie
+presenteer bovenstaande
+
+
+Interview Gurpeet
+
+vragen stellen
+snel antwoord
+makkelijk de website begrijpen
+persoon pagina -> persoonlijke pagina (met vragen en gestelde vragen)
+
+
+Interview Dion
+
+Wordt geholpen met coderings problemen met duidelijke code snippets
+Overzichterlijke duidelijke UI waarbij antworden op mijn problemen makkelijk en overzichtelijk te bekijken zijn
+vragen kunnen zoeken op specifieke code talen
+Inloggen, want makkelijk eigen vragen kunnen zien.
+Makkelijk kunnen zien of er een nieuwe antwoord op mijn vraag zijn.
+
+Interview alessio
+Dat je antwoord krijgt op je vragen
+Vragen kunnen beantwoorden
+Het vragenoverzicht moet netjes zijn
+Code snippets bij vragen en antwoorden
+
+
+Feedback
+alessio: Hover effect op navbar items
+Dean: meer duidelijkheid op welke pagina je bent.
+
+
+

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- Gebruik bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet/less" type="text/css" href="./assets/css/style.less" />
+        <link rel="stylesheet/less" type="text/css" href="./assets/css/variables.less" />
+
+        <title>SE Code Exchange</title>
+        <link rel="stylesheet" href="/assets/css/index.css" />
+    </head>
+
+    <body>
+        <!-- Deze HTML pagina wordt als eerste aangeroepen als de website wordt aangeroepen in de browser -->
+
+        <div class="header">
+            <div class="header-container">
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Code Exchange Logo"></a>
+                    </div>
+                    <!-- navigatie begint hier: -->
+                    <div class="header-content">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="./index.html">Home <span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="questions.html">Questions</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a id="myQuestions" class="nav-link my-questions loggedin" href="my-questions.html">My Questions</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                            <a class="nav-link" href="tags.html">Tags</a>
+                                        </li> -->
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                    </form>
+
+                                    <!-- start aan code voor search bar op kleinere schermen -->
+                                    <!-- <li class="nav-item search">
+                                            <div class="search-container">
+                                                <button id="searchButton" class="search-button">
+                                                <img src="./assets/img/searchicon.png" alt="Search Icon">
+                                                </button>
+                                                <div id="searchField" class="search-field">
+                                                <input type="text" placeholder="Search...">
+                                                </div>
+                                            </div>  
+                                        </li> -->
+                                    <!-- <li class="nav-item account">
+                                            <span id="profile" class="nav-link profile">Profile</span>
+                                        </li> -->
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item dropdown loggedin ">
+                                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown accountName"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Account name
+                                        </a>
+                                        <div class="dropdown-menu account" aria-labelledby="navbarDropdown">
+                                            <span id="profile" class="dropdown-item profile">Profile</span>
+                                            <div class="dropdown-divider"></div>
+                                            <span class="dropdown-item logout-btn" id="logoutButton">Log out</span>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item not-loggedin">
+                                        <a href="login.html"><button class="loginbutton button btn">Login</button></a>
+                                        <a href="register.html"><button
+                                                class="registerbutton button btn">Register</button></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- einde navigatie  -->
+                </div>
+                <div class="extra-bar">
+                    <div class="current-page">
+                        <h2 class="pagetitle">About us</h2>
+                        <!-- <h1><span class=""></span></h1> -->
+                    </div>
+                    <div class="add-question ">
+                        <!-- <a href="add-question.html"><Button class="add-button btn">Question? Ask Here!</Button></a> -->
+                        <Button class="add-button btn">Question? Ask Here!</Button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <div class="container">
+                <div class="wrapper">
+                    <section class="about-content">
+                        <div class="about-logo">
+                            <img src="/assets/img/logo.png" alt="Logo" class="logo"/>
+                        </div>
+                        <div class="about-text">
+                            <h3>Welcome to Code Exchange - Where Knowledge Meets Community!</h3>
+                            <p>Are you a coding enthusiast, a tech guru, or someone navigating the vast world of programming and
+                                technology? Look no further! Code Exchange is your go-to destination for all things
+                                tech-related.</p>
+    
+                            <p>Join our vibrant community of developers, engineers, and technology enthusiasts who come together
+                                to share knowledge, seek solutions, and engage in insightful discussions. Whether you're a
+                                seasoned pro or just starting your coding journey, our platform is designed to cater to all
+                                levels of expertise.</p>
+    
+                            <h4>What Sets Us Apart?</h4>
+                            <ul>
+                                <li><strong>Ask and Answer</strong>: Have burning questions or stumbled upon a challenge? Ask
+                                    the community, and you'll get answers from experienced peers eager to help.</li>
+                                <li><strong>Knowledge Base</strong>: Dive into a treasure trove of knowledge with our extensive
+                                    library of questions and answers. Discover solutions to common issues and learn new tips and
+                                    tricks.</li>
+                                <li><strong>Collaborative Learning</strong>: Experience the power of collaborative learning by
+                                    engaging in discussions, sharing insights, and helping others overcome hurdles in their
+                                    coding endeavors.</li>
+                                <li<strong>Community-driven</strong>: Code Exchange is more than just a platform; it's a
+                                    community. Connect with like-minded individuals, participate in forums, and build lasting
+                                    relationships with fellow tech enthusiasts.</li>
+                            </ul>
+                            <p>Ready to elevate your tech journey? Join Code Exchange today and be a part of a community that
+                                thrives on knowledge sharing, problem-solving, and the excitement of all things tech!</p>
+                        </div>
+                    </section>
+                    
+
+                </div>
+            </div>
+        </main>
+        <!--  Dit typescript bestand (index.ts) wordt hier aangeroepen en uitgevoerd -->
+        <script src="/src/index.ts" type="module"></script>
+        <script src="https://cdn.jsdelivr.net/npm/less"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
